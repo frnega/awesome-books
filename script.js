@@ -19,7 +19,7 @@ function displaybooks(books) {
   for (let i = 0; i < books.length; i += 1) {
     const book = books[i];
     const maindiv = document.createElement('div');
-    const h2 = document.createElement('h2');
+    const h2 = document.createElement('p');
     const p = document.createElement('p');
     const removeButton = document.createElement('button');
     removeButton.addEventListener('click', () => {
